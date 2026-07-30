@@ -1,0 +1,15 @@
+{
+	"name": "DataFactory1evgeni",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "swedencentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e1126d6e-0cc3-44fd-b76c-ca0e94f0db45",
+		"tenantId": "5778b416-9d90-44ec-87b3-5d2cbf146b91"
+	}
+}
