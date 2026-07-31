@@ -1,0 +1,25 @@
+{
+	"name": "SE_trigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline2",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/adftest/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/445de807-bf9c-49dc-96f5-59f0ddf91737/resourceGroups/cloud-shell-storage-westeurope/providers/Microsoft.Storage/storageAccounts/enstandardstorage",
+			"events": [
+				"Microsoft.Storage.BlobCreated",
+				"Microsoft.Storage.BlobDeleted"
+			]
+		}
+	}
+}
