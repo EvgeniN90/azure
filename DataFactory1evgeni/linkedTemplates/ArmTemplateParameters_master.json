@@ -11,8 +11,17 @@
 		"AzureBlobStorage2_connectionString": {
 			"value": ""
 		},
+		"linkcustomIR_connectionString": {
+			"value": ""
+		},
 		"SE_trigger_properties_typeProperties_scope": {
 			"value": "/subscriptions/445de807-bf9c-49dc-96f5-59f0ddf91737/resourceGroups/cloud-shell-storage-westeurope/providers/Microsoft.Storage/storageAccounts/enstandardstorage"
+		},
+		"AzureBlobStorage926_properties_privateLinkResourceId": {
+			"value": "/subscriptions/445de807-bf9c-49dc-96f5-59f0ddf91737/resourceGroups/cloud-shell-storage-westeurope/providers/Microsoft.Storage/storageAccounts/enstandardstorage"
+		},
+		"AzureBlobStorage926_properties_groupId": {
+			"value": "blob"
 		},
 		"containerUri": {
 			"value": ""

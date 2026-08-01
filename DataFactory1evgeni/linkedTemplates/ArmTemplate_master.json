@@ -15,9 +15,21 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage2'"
 		},
+		"linkcustomIR_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'linkcustomIR'"
+		},
 		"SE_trigger_properties_typeProperties_scope": {
 			"type": "string",
 			"defaultValue": "/subscriptions/445de807-bf9c-49dc-96f5-59f0ddf91737/resourceGroups/cloud-shell-storage-westeurope/providers/Microsoft.Storage/storageAccounts/enstandardstorage"
+		},
+		"AzureBlobStorage926_properties_privateLinkResourceId": {
+			"type": "string",
+			"defaultValue": "/subscriptions/445de807-bf9c-49dc-96f5-59f0ddf91737/resourceGroups/cloud-shell-storage-westeurope/providers/Microsoft.Storage/storageAccounts/enstandardstorage"
+		},
+		"AzureBlobStorage926_properties_groupId": {
+			"type": "string",
+			"defaultValue": "blob"
 		},
 		"containerUri": {
 			"type": "string",
@@ -51,6 +63,15 @@
 					},
 					"AzureBlobStorage2_connectionString": {
 						"value": "[parameters('AzureBlobStorage2_connectionString')]"
+					},
+					"linkcustomIR_connectionString": {
+						"value": "[parameters('linkcustomIR_connectionString')]"
+					},
+					"AzureBlobStorage926_properties_privateLinkResourceId": {
+						"value": "[parameters('AzureBlobStorage926_properties_privateLinkResourceId')]"
+					},
+					"AzureBlobStorage926_properties_groupId": {
+						"value": "[parameters('AzureBlobStorage926_properties_groupId')]"
 					},
 					"SE_trigger_properties_typeProperties_scope": {
 						"value": "[parameters('SE_trigger_properties_typeProperties_scope')]"
