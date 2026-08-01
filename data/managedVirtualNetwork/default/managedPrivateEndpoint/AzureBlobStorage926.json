@@ -1,0 +1,7 @@
+{
+	"name": "AzureBlobStorage926",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/445de807-bf9c-49dc-96f5-59f0ddf91737/resourceGroups/cloud-shell-storage-westeurope/providers/Microsoft.Storage/storageAccounts/enstandardstorage",
+		"groupId": "blob"
+	}
+}
